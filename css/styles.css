@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+header{
+    width: 100%;
+    height: 5vh;
+   /*  background-color: sandybrown;; */
+}
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+
+
+.contenedor{
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#logo{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+nav{
+    position: relative;
+    top: 20px;
+    width: 75%;
+    height: 5vh;  
+}
+
+nav  li {
+    position: relative;
+    left: 80%;
+    display:inline-block;
+    width:10%;
+    padding:5px 10px;
+    text-align:center;
+    color:#fff;
+}
+
+nav li a {
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+#blog-post{
+    position: absolute;
+    left: 50%;
+    top:200px;
+    transform: translateX(-50%);
+    width: 70%;
+   
+}
+
+#blog-post ul {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+span{
+    color: #5b5b5b;
+}
+.blog-post-item {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 25px;
+}
+
+#blog-post ul li a {
+    position: relative;
+    left:30%;
+
+}
+
+.post{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top:10%;
+    height: 100vmax;
+    width: 70vw;
+}
+
+.nav-post{
+    margin-top: 10px;
+}
+
+.nav-post  ul li{
+    display: inline;    
+}
+
+.avatar-post{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+
+.post-info  span {
+    position: relative;
+    bottom: 7px;
+}
+
+.conten-post{
+    width: 80%;
+    height: 100vh;
+    margin-left:auto;
+    margin-right: auto;
+    padding: 30px;
+    text-align: justify;
+    font-size: 20px;
+}
+.conten-post p {
+    margin-bottom: 15px;
+}
